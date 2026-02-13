@@ -27,7 +27,7 @@ export default function App({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} antialiased`}>
+      <body className={`${inter.variable} ${allura.variable} antialiased`}>
         <Provider>{children}</Provider>
       </body>
     </html>
