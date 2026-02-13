@@ -8,10 +8,14 @@ const config = defineConfig({
         accent: { value: "#5271ff" },
         danger: { value: "#ee2400" },
       },
+      fonts: {
+        allura: { value: "--allura" },
+        inter: { value: "--inter" },
+      },
     },
   },
 });
 
 const system = createSystem(config, defaultConfig);
 
-export default system
+export default system;
