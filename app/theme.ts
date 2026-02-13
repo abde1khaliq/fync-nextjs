@@ -1,12 +1,6 @@
 import { createSystem, defineConfig, defaultConfig } from "@chakra-ui/react";
 
 const config = defineConfig({
-  globalCss: {
-    "html, body": {
-      margin: 0,
-      padding: 0,
-    },
-  },
   theme: {
     tokens: {
       colors: {
@@ -14,13 +8,10 @@ const config = defineConfig({
         accent: { value: "#5271ff" },
         danger: { value: "#ee2400" },
       },
-      fonts: {
-        body: { value: "inter" },
-      },
     },
   },
 });
 
-const system = createSystem(defaultConfig, config);
+const system = createSystem(config, defaultConfig);
 
-export default system;
+export default system
