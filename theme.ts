@@ -10,7 +10,9 @@ const config = defineConfig({
   theme: {
     tokens: {
       colors: {
+        primary: { value: "#f5f5f5" },
         accent: { value: "#5271ff" },
+        danger: { value: "#ee2400" },
       },
       fonts: {
         body: { value: "inter" },
