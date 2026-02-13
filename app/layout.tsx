@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
-import { ChakraProvider } from "@chakra-ui/react";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import system from "@/app/theme";
 import Provider from "./provider";
 
 const inter = Inter({
