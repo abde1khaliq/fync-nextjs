@@ -1,6 +1,12 @@
 import { createSystem, defineConfig, defaultConfig } from "@chakra-ui/react";
 
 const config = defineConfig({
+  globalCss: {
+    "html, body": {
+      margin: 0,
+      padding: 0,
+    },
+  },
   theme: {
     tokens: {
       colors: {
@@ -9,8 +15,8 @@ const config = defineConfig({
         danger: { value: "#ee2400" },
       },
       fonts: {
-        allura: { value: "--allura" },
-        inter: { value: "--inter" },
+        inter: { value: "inter" },
+        allura: { value: "allura" },
       },
     },
   },
