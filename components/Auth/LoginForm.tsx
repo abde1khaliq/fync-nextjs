@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Input, Text, Image } from "@chakra-ui/react";
+import { Box, Button, Flex, Input, Text, Image, Link } from "@chakra-ui/react";
 import { Mail, Lock } from "lucide-react";
 import { FaApple } from "react-icons/fa";
 
@@ -216,13 +216,8 @@ const LoginPage = () => {
           colorScheme="blue"
           size="sm"
           fontSize="sm"
-          fontWeight="600"
           borderRadius="md"
           mb={4}
-          _hover={{
-            transform: "translateY(-1px)",
-            shadow: "md",
-          }}
           transition="all 0.2s"
         >
           Sign In
@@ -231,15 +226,14 @@ const LoginPage = () => {
         {/* Sign Up Link */}
         <Text fontSize="sm" textAlign="center" color="gray.600">
           Don't have an account?{" "}
-          <Text
-            as="span"
+          <Link
+            href="/register"
             color="blue.500"
-            fontWeight="600"
             cursor="pointer"
             _hover={{ textDecoration: "underline" }}
           >
             Sign up
-          </Text>
+          </Link>
         </Text>
       </Box>
     </Flex>
