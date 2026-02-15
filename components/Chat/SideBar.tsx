@@ -27,7 +27,7 @@ const SideBar = () => {
       h="100vh"
       borderRight="1px solid"
       borderColor="gray.200"
-      _dark={{ borderColor: "whiteAlpha.200", bg: "gray.900" }}
+      _dark={{ borderColor: "whiteAlpha.200", bg: "accentW" }}
       bg="white"
       display="flex"
       flexDirection="column"

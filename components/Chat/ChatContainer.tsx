@@ -15,7 +15,7 @@ const ChatContainer = () => {
       h="100vh"
       direction="column"
       bg="gray.50"
-      _dark={{ bg: "gray.800" }}
+      _dark={{ bg: "accentWB" }}
       fontFamily="inter"
     >
       {/* Chat Header */}
@@ -26,7 +26,7 @@ const ChatContainer = () => {
         py={2.5}
         borderBottom="1px solid"
         borderColor="gray.200"
-        _dark={{ borderColor: "whiteAlpha.200", bg: "gray.900" }}
+        _dark={{ borderColor: "whiteAlpha.200", bg: "accentW" }}
         bg="white"
       >
         {/* User Info */}
@@ -155,7 +155,7 @@ const ChatContainer = () => {
         py={3}
         borderTop="1px solid"
         borderColor="gray.200"
-        _dark={{ borderColor: "whiteAlpha.200", bg: "gray.900" }}
+        _dark={{ borderColor: "whiteAlpha.200", bg: "accentW" }}
         bg="white"
       >
         <Flex gap={1.5} align="center">
@@ -182,7 +182,7 @@ const ChatContainer = () => {
               fontSize="sm"
               borderRadius="lg"
               bg="gray.50"
-              _dark={{ bg: "gray.800", borderColor: "whiteAlpha.200" }}
+              _dark={{ bg: "whiteAlpha.100", borderColor: "whiteAlpha.200" }}
               border="1px solid"
               borderColor="gray.200"
               _focus={{
