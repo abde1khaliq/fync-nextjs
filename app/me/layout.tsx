@@ -1,4 +1,4 @@
-import SideBar from "@/components/SideBar";
+import SideBar from "@/components/Chat/SideBar";
 import { Box, Flex } from "@chakra-ui/react";
 import { ReactNode } from "react";
 
