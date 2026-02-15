@@ -32,7 +32,7 @@ const RegisterPage = () => {
             alt="Fync Logo"
             mb={3}
           />
-          <Text fontSize="xl" fontWeight="700" mb={1}>
+          <Text fontSize="xl" mb={1}>
             Create an account
           </Text>
           <Text fontSize="sm" color="gray.500">

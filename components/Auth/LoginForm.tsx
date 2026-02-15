@@ -32,7 +32,7 @@ const LoginPage = () => {
             alt="Fync Logo"
             mb={3}
           />
-          <Text fontSize="xl" fontWeight="700" mb={1}>
+          <Text fontSize="xl" mb={1}>
             Welcome back
           </Text>
           <Text fontSize="sm" color="gray.500">
