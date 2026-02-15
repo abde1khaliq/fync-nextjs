@@ -1,9 +1,16 @@
-import { Box } from "@chakra-ui/react";
+import SideBar from "@/components/SideBar";
+import { Box, Flex } from "@chakra-ui/react";
+import { ReactNode } from "react";
 
-export default function RootLayout() {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <>
-      <Box w="100%" h="100vh" bg="accentD"></Box>
+      <Box w="100%" h="100vh" bg="accentD">
+        <Flex flexDir={"row"}>
+          <SideBar />
+          {children}
+        </Flex>
+      </Box>
     </>
   );
 }

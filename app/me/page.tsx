@@ -1,3 +1,5 @@
+import ChatContainer from "@/components/ChatContainer";
+
 export default function MePage() {
-  return <></>;
+  return <ChatContainer></ChatContainer>;
 }
