@@ -13,6 +13,7 @@ const config = defineConfig({
         primary: { value: "#f5f5f5" },
         accent: { value: "#5271ff" },
         danger: { value: "#ee2400" },
+        accentD: { value: "#02030d" },
       },
       fonts: {
         inter: { value: "inter" },
